@@ -1,0 +1,11 @@
+__pycache__/
+venv/
+.git/
+.config/
+.breakpoints
+*.txt
+*.nix
+*.lock
+*.toml
+main.py
+.gitignore
