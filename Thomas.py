@@ -1,14 +1,14 @@
-import random
-team_name = 'test'
+
+team_name = 'Thomas'
 strategy_name = 'DRS "Down right side"'
 strategy_description = ''
 
-def print_board(board):
+'''def print_board(board):
   print(board[0][0]+'|'+board[0][1]+'|'+board[0][2])
   print('-+-+-')
   print(board[1][0]+'|'+board[1][1]+'|'+board[1][2])
   print('-+-+-')
-  print(board[2][0]+'|'+board[2][1]+'|'+board[2][2])
+  print(board[2][0]+'|'+board[2][1]+'|'+board[2][2])'''
 
 spot1= 0,0
 spot2= 0,1
@@ -27,7 +27,8 @@ def move(player, board, score):
     r = r + 1
     if r > 2:
       r = 0
-      c = c - 1
+      c = c - 2
+      
   
   return r, c
   
